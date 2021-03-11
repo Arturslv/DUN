@@ -61,6 +61,6 @@ h3.h3{text-align:center;margin:1em;text-transform:capitalize;font-size:1.7em;}
 }
 @media (max-width: 550px) {
   .itemPosition {
-    margin-left: 15%;
+    margin: 0 15% 0 20%;
   }
 }

@@ -1,3 +1,7 @@
+body {
+  background: #4F8B89;
+}
+
 /* fonti */
 .dun_fonts {
   /* font-family: 'Homemade Apple', cursive; */
@@ -16,16 +20,23 @@
 .logo_in_nav {
   position: absolute;
   z-index: +7;
-  margin: 0 44%;
+  margin: 0 44% 0 46%;
 }
 @media (max-width: 1000px) {
-
   .logo_in_nav {
-    position: absolute;
-    z-index: +7;
-    margin: 0 35%;
+    margin-left: 39%;
   }
 }
+/* veikals konfigs */
+.container_Veikals_size {
+  width: 120%;
+}
+@media (min-width: 768px){
+.container_Veikals_size {
+    width: 100%;
+  }
+}
+/* veikals konfigs END */
 .nav_size {
   width: 10%;
 }
@@ -50,7 +61,7 @@
 
 }
 .colaps-color {
-  background-color: #9b3675;
+  background-color: #ffff;
 }
 .nav-size {
   font-size: 30px;
@@ -65,7 +76,7 @@
   color: black;
 }
 .nav-color2:hover {
-  color: Yellow;
+  color: #4F8B89;
 }
 
 /* logo picture */
@@ -92,7 +103,7 @@
 /* Jaunumi */
 
   .jaunumi_background {
-    background-color: #9ecca4;
+    background-color: #f4f9f9;
     height: auto;
     margin-top: 200px;
   }
@@ -108,9 +119,9 @@
   font-size: 25px;
 }
 .btn_apskatit:hover {
-  color: #cee6b4;
-  background-color: #9b3675;
-  border-color: #9b3675;
+  color: #ffff;
+  background-color: #4F8B89;
+  border-color: #4F8B89;
 }
 
 /* Jaunumu End */
@@ -148,60 +159,199 @@ p {
 
 /* Par un ap END */
 /* Soc tikli un sazina */
-/*Left Side Buttons Start*/
-  .sticky-left-container{
-    padding: 0;
-    margin: 0;
-    position: fixed;
-    left: -158px;
-    top:40%;
-    width: 200px;
-    z-index:2;
-  }
-  .sticky-left li{
-    list-style-type: none;
-    color: #efefef;
-    height: 43px;
-    padding: 0;
-    margin: 0 0 1px 0;
-    -webkit-transition:all 0.25s ease-in-out;
-    -moz-transition:all 0.25s ease-in-out;
-    -o-transition:all 0.25s ease-in-out;
-    transition:all 0.25s ease-in-out;
-    cursor: pointer;
-  }
-  .sticky-left li:hover{
-    margin-right: -150px;
-    background:#333;
-    border-radius: 25px 25px 25px 0;
-  }
 
-  .sticky-left li img{
-    float: right;
-    border-radius:50%;
-    margin: 5px 5px;
-    margin-left: 10px;
-  }
-  .sticky-left li p{
-    padding: 0;
-    float:right;
-    margin: 0;
-    text-transform: uppercase;
-    line-height: 43px;
-  }
-/*Left Side Buttons End*/
+.fa-envelope {
+  background: rgb(98,98,98);;
+  color: white;
+  margin-left: 0.15em;
+  margin-top: 2.5em;
+  font-size: 30px;
+  position:fixed;
+  z-index:2;
+}
+.fa-whatsapp {
+  background: rgb(98,98,98);;
+  color: white;
+  margin-left: 0.15em;
+  margin-top: 4.5em;
+  font-size: 30px;
+  position:fixed;
+  z-index:2;
+}
+.fa-facebook {
+  background: rgb(98,98,98);;
+  color: white;
+  margin-left: 0.15em;
+  margin-top: 6.5em;
+  font-size: 30px;
+  position:fixed;
+  z-index:2;
+}
 
+.fa-instagram {
+  background: rgb(98,98,98);;
+  color: white;
+  margin-left: 0.15em;
+  margin-top: 8.5em;
+  font-size: 30px;
+  position:fixed;
+  z-index:2;
+}
+
+.social-icons .fa {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.social-icons.icon-circle .fa{
+	border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
+	-webkit-transform: scale(1.1) rotate(360deg);
+	-moz-transform: scale(1.1) rotate(360deg);
+	-ms-transform: scale(1.1) rotate(360deg);
+	-o-transform: scale(1.1) rotate(360deg);
+	transform: scale(1.1) rotate(360deg);
+}
 
 /* Soc tikli un sazina END */
-/* Footer */
 
-.footer-basic {
-  margin-top: 50px;
-  padding:40px 0;
-  background-color:#9b3675;
-  color: yellow ;
+/* contactMe */
+
+
+
 
 }
+.contactBody {
+  margin: 5% 10% 6%;
+  width: 900px;
+  font-size: 30px;
+}
+
+
+}
+
+aside {
+    background: #4F8B89;
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;
+}
+textarea {
+  width: 90%;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+/* .button-success {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(28, 184, 65);
+}
+.button-xlarge {
+  font-size: 125%;
+} */
+/* button {
+  float: right;
+} */
+
+#name, #email {
+  width: 50%;
+}
+.honeypot-field {
+  display: none;
+}
+
+.container33 {
+  position: relative;
+  width: 50%;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.one {
+  font-size: 35px;
+  width: 70%;
+  height: auto;
+  float: left;
+}
+@media (max-width: 1900px) {
+  .one {
+    font-size: 30px;
+    width: 600px;
+    float: left;
+  }
+ .contac_me_img {
+   display: none;
+ }
+ .foters_bla {
+   background: #4F8B89;
+   height: 1800px;
+
+ }
+}
+
+.two {
+width: 140%;
+  height: 500%;
+}
+
+.contac_me_img{
+  width: 35%;
+  padding: auto;
+  margin-top: 300px;
+}
+/* contactMe END */
+/* Footer */
+
+.foters_bla {
+  background: #4F8B89;
+  height: 1300px;
+}
+/* @media (max-width: 300px) {
+  .foters_bla {
+    margin-top: 60%;
+} */
+
+.footer-basic {
+
+  margin-top: 50px;
+  padding:40px 0;
+  background-color:#aaaaaa;
+  color: black;
+}
+
+/* @media (max-width: 300px) {
+  .footer-basic {
+    margin-top: 85%;
+    padding: 40px 0;
+    background-color:#aaaaaa;
+    color: black;
+  }
+} */
 
 .footer-basic ul {
   padding:0;
@@ -254,51 +404,7 @@ p {
   margin-top:15px;
   text-align:center;
   font-size:13px;
-  color:#9b3675;
+  color:black;
   margin-bottom:0;
 }
 /* Footer End*/
-/* contactMe */
-.contactBody {
-  margin: 0 10%;
-}
-aside {
-    background: #9b3675; /* same color as selected state on site menu */
-    padding: 0.3em 1em;
-    border-radius: 3px;
-    color: #fff;
-    margin-bottom: 2em;
-}
-textarea {
-  width: 100%;
-}
-.content-head {
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin: 2em 0 1em;
-}
-.is-center {
-  text-align: center;
-}
-/* .button-success {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background: rgb(28, 184, 65);
-}
-.button-xlarge {
-  font-size: 125%;
-}
-button {
-  float: right;
-}
-*/
-#name, #email {
-  width: 50%;
-}
-.honeypot-field {
-  display: none;
-}
-
-/* contactMe END */
